@@ -69,7 +69,7 @@ window.addEventListener('DOMContentLoaded', () => {
     KEEP.initBack2Top()
     KEEP.initCodeBlock()
     KEEP.setFooterVersion()
-    KEEP.initLazyLoad()
+    // KEEP.initLazyLoad()
 
     if (local_search?.enable === true) {
       KEEP.initLocalSearch()
