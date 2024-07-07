@@ -26,7 +26,7 @@ const is_code_block_unshrink = page?.code_block_shrink === false
                     </div>
                 <% } %>
 
-                <% if (post_author && 1 == 2) { %>
+                <% if (post_author && theme?.post?.author === true) { %>
                     <div class="post-header border-box">
                         <% if (post_avatar) { %>
                             <div class="avatar-box border-box">
